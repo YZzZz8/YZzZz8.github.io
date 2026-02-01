@@ -204,6 +204,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md      # 隐藏博客页面
+  - _posts/             # 隐藏所有博客文章
+  - _news/announcement_*.md  # 隐藏所有新闻公告（可选）
 keep_files:
   - CNAME
   - .nojekyll
