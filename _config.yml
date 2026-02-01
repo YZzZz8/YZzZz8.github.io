@@ -207,6 +207,9 @@ exclude:
   - _pages/blog.md      # 隐藏博客页面
   - _posts/             # 隐藏所有博客文章
   - _news/announcement_*.md  # 隐藏所有新闻公告（可选）
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
