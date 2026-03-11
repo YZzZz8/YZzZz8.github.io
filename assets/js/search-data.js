@@ -39,7 +39,57 @@ ninja.data = [{
           title: '例子',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%9A%90%E7%A7%81%E6%80%A7%E6%94%BB%E5%87%BB%E6%9C%BA%E7%90%86/";
+            },},{id: "projects-例子",
+          title: '例子',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%9A%90%E7%A7%81%E6%80%A7%E9%98%B2%E6%8A%A4%E6%9C%BA%E7%90%86/";
+            },},{id: "projects-模型鲁棒性优化机理",
+          title: '模型鲁棒性优化机理',
+          description: "围绕对抗训练中“博弈建模假设是否合理”这一核心问题开展研究。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%B2%81%E6%A3%92%E6%80%A7%E4%BC%98%E5%8C%96%E6%9C%BA%E7%90%86/";
+            },},{id: "projects-多模态大模型幻觉缓解",
+          title: '多模态大模型幻觉缓解',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%9F%A7%E6%80%A7%E5%88%86%E6%9E%90/";
+            },},{id: "projects-多模态大模型幻觉缓解",
+          title: '多模态大模型幻觉缓解',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%BB%E8%A7%89%E7%BC%93%E8%A7%A3/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%84%86%E5%BC%B1%E6%80%A7%E8%AF%84%E4%BC%B0/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B6%8A%E7%8B%B1%E9%A3%8E%E9%99%A9%E8%AF%84%E4%BC%B0/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_%E6%A8%A1%E5%9E%8B%E5%90%8E%E9%97%A8%E9%B2%81%E6%A3%92%E6%80%A7%E8%AF%84%E4%BC%B0/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E9%9D%9E%E4%BE%B5%E5%85%A5%E5%BC%8F%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8E%E9%97%A8%E9%98%B2%E6%8A%A4/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_%E9%9D%A2%E5%90%91%E6%95%B0%E6%8D%AE%E6%8A%95%E6%AF%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%AF%E4%BF%A1%E6%80%A7%E5%BB%BA%E6%A8%A1/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_%E5%85%B6%E4%BB%96%E7%BB%B4%E5%BA%A6%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%89%E5%85%A8%E6%80%A7%E5%8F%8A%E5%8F%AF%E4%BF%A1%E6%80%A7/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
