@@ -35,7 +35,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-模型隐私性攻击机理",
+            },},{id: "news-a通知二测试",
+          title: 'A通知二测试',
+          description: "",
+          section: "News",},{id: "news-a通知1测试",
+          title: 'A通知1测试。',
+          description: "",
+          section: "News",},{id: "news-a通知三测试-sparkles-smile",
+          title: 'A通知三测试! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "projects-模型隐私性攻击机理",
           title: '模型隐私性攻击机理',
           description: "项目组考查了模型反演攻击（Model Inversion Attacks，MIA）对基于学习的系统的数据隐私构成的威胁。",
           section: "Projects",handler: () => {
