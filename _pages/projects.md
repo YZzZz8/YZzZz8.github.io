@@ -9,7 +9,6 @@ display_categories: [大模型安全机理,模型内生安全增强,模型红队
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
 <style>
 /* 标题统一黑色 + 左对齐 */
 .category {
@@ -30,13 +29,12 @@ horizontal: false
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
 
-  <!-- 新增：每个方向的简介 -->
+  <!-- 研究方向简介 -->
   <div class="category-desc">
     {% case category %}
       {% when "大模型安全机理" %}
@@ -54,7 +52,8 @@ horizontal: false
 
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
+  
+  <!-- 关键：修复多列布局，手机2列 + 电脑3列 -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
@@ -74,10 +73,8 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
 {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
