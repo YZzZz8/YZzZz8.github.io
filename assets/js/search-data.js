@@ -79,13 +79,13 @@ ninja.data = [{
           description: "揭示视觉语言模型物体幻觉源于对无关视觉特征的过度自信，提出自适应变分信息瓶颈方法ADAVIB，有效缓解多模态大模型幻觉问题。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%BB%E8%A7%89%E7%BC%93%E8%A7%A3/";
-            },},{id: "projects-语言模型非侵入式轻量级后门防护",
-          title: '语言模型非侵入式轻量级后门防护',
+            },},{id: "projects-模型后门长尾效应研究",
+          title: '模型后门长尾效应研究',
           description: "提出首个利用长尾效应、无需搜索的轻量级后门防御方法LT-Defense，高效精准抵御语言模型后门攻击。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E9%9D%9E%E4%BE%B5%E5%85%A5%E5%BC%8F%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8E%E9%97%A8%E9%98%B2%E6%8A%A4/";
-            },},{id: "projects-模型隐私性防护机理",
-          title: '模型隐私性防护机理',
+            },},{id: "projects-模型隐私主动防御方法",
+          title: '模型隐私主动防御方法',
           description: "项目组对MIA防护进行了理论分析，形式化定义了狭义和广义的MIA防护问题，并进一步提出神经蜜点（Neural Honeypoint）以捕获攻击行为。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_%E9%98%B2%E6%8A%A4%E6%9C%BA%E7%90%86/";
