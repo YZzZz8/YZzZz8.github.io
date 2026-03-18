@@ -2,7 +2,7 @@
 layout: page
 title: 研究方向
 permalink: /projects/
-description: 实验室主要研究方向。
+description: 研究组主要研究方向。
 nav: true
 nav_order: 3
 display_categories: [大模型安全机理,模型内生安全增强,模型红队评测方法,模型安全自适应防护,其他维度的机器学习安全性及可信性]
@@ -52,7 +52,7 @@ horizontal: false
 
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  
+
   <!-- 关键：修复多列布局，手机2列 + 电脑3列 -->
   {% if page.horizontal %}
   <div class="container">
