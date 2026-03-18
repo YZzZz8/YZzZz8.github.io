@@ -42,17 +42,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-恭喜杨智-卓妙华-贺紫盈-曾振涛四位同学在2025第一届全国大学生人工智能安全竞赛对抗赛中获全国一等奖",
-          title: '恭喜杨智、卓妙华、贺紫盈、曾振涛四位同学在2025第一届全国大学生人工智能安全竞赛对抗赛中获全国一等奖。🎉🎉🎉',
+            },},{id: "news-杨智-卓妙华-贺紫盈-曾振涛四位同学在2025第一届全国大学生人工智能安全竞赛对抗赛中获全国一等奖",
+          title: '杨智、卓妙华、贺紫盈、曾振涛四位同学在2025第一届全国大学生人工智能安全竞赛对抗赛中获全国一等奖。🎉🎉🎉',
           description: "",
-          section: "News",},{id: "news-恭喜广州大学网络空间安全学院与杭州君同未来科技有限责任公司共建的-人工智能安全治理创新联合实验室-正式揭牌成立-双方将整合学术与产业优势-聚焦人工智能安全核心领域开展协同攻关-共筑人工智能安全防线-赋能粤港澳大湾区人工智能产业高质量发展",
-          title: '恭喜广州大学网络空间安全学院与杭州君同未来科技有限责任公司共建的 “人工智能安全治理创新联合实验室”  正式揭牌成立，双方将整合学术与产业优势，聚焦人工智能安全核心领域开展协同攻关，共筑人工智能安全防线、赋能粤港澳大湾区人工智能产业高质量发展。🎉🎉🎉',
+          section: "News",},{id: "news-广州大学网络空间安全学院与杭州君同未来科技有限责任公司共建的-人工智能安全治理创新联合实验室-正式揭牌成立-双方将整合学术与产业优势-聚焦人工智能安全核心领域开展协同攻关-共筑人工智能安全防线-赋能粤港澳大湾区人工智能产业高质量发展",
+          title: '广州大学网络空间安全学院与杭州君同未来科技有限责任公司共建的 “人工智能安全治理创新联合实验室”  正式揭牌成立，双方将整合学术与产业优势，聚焦人工智能安全核心领域开展协同攻关，共筑人工智能安全防线、赋能粤港澳大湾区人工智能产业高质量发展。🎉🎉🎉',
           description: "",
-          section: "News",},{id: "news-恭喜研究组成员张梦霞的研究论文-bdpackets-a-clean-label-backdoor-attack-on-network-traffic-classifiers-via-feature-fusion-成功被ccf-a类会议ieee-infocom-2026录用-该成果为网络流量分类模型安全防护提供了新视角",
-          title: '恭喜研究组成员张梦霞的研究论文《BDpackets: A Clean-label Backdoor Attack on Network Traffic Classifiers via Feature Fusion》成功被CCF A类会议IEEE...',
+          section: "News",},{id: "news-研究组成员张梦霞的研究论文-bdpackets-a-clean-label-backdoor-attack-on-network-traffic-classifiers-via-feature-fusion-成功被ccf-a类会议ieee-infocom-2026录用-该成果为网络流量分类模型安全防护提供了新视角",
+          title: '研究组成员张梦霞的研究论文《BDpackets: A Clean-label Backdoor Attack on Network Traffic Classifiers via Feature Fusion》成功被CCF A类会议IEEE...',
           description: "",
-          section: "News",},{id: "news-恭喜研究组成员胥迤潇的论文-at-field-rethinking-the-games-in-adversarial-training-被被ccf-a类会议aaai-2026录用-并受邀作口头报告-录用率仅17-6-口头报告率小于5-该成果为对抗训练领域研究作出了积极贡献",
-          title: '恭喜研究组成员胥迤潇的论文《AT-Field: Rethinking the Games in Adversarial Training》被被CCF A类会议AAAI 2026录用，并受邀作口头报告（录用率仅17.6%，口头报告率小于5%），该成果为对抗训练领域研究作出了积极贡献。🎉🎉🎉',
+          section: "News",},{id: "news-研究组成员胥迤潇的论文-at-field-rethinking-the-games-in-adversarial-training-被被ccf-a类会议aaai-2026录用-并受邀作口头报告-录用率仅17-6-口头报告率小于5-该成果为对抗训练领域研究作出了积极贡献",
+          title: '研究组成员胥迤潇的论文《AT-Field: Rethinking the Games in Adversarial Training》被被CCF A类会议AAAI 2026录用，并受邀作口头报告（录用率仅17.6%，口头报告率小于5%），该成果为对抗训练领域研究作出了积极贡献。🎉🎉🎉',
           description: "",
           section: "News",},{id: "projects-模型隐私性攻击机理",
           title: '模型隐私性攻击机理',
@@ -64,8 +64,8 @@ ninja.data = [{
           description: "从对抗训练博弈重构解决鲁棒性收敛难题，通过神经蜜点实现模型反演攻击的主动防御，全面提升大模型安全性能。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%B2%81%E6%A3%92%E6%80%A7%E4%BC%98%E5%8C%96%E6%9C%BA%E7%90%86/";
-            },},{id: "projects-大模型脆弱性评估",
-          title: '大模型脆弱性评估',
+            },},{id: "projects-模型数据投毒脆弱性评估",
+          title: '模型数据投毒脆弱性评估',
           description: "针对多用户协同数据分析场景，建模恶意数据提供者行为，研究不同防御强度与行为模式下的数据提供者可信度评估方法。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_%E9%9D%A2%E5%90%91%E6%95%B0%E6%8D%AE%E6%8A%95%E6%AF%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%AF%E4%BF%A1%E6%80%A7%E5%BB%BA%E6%A8%A1/";
