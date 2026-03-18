@@ -7,31 +7,25 @@ subtitle: AI Security and Governance Research Group
 profile:
   align: right
   image: hezhao1.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>联系方式：limohan [at] gzhu [dot] edu [dot] cn</p>
 
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: false
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
+<!-- 只需这一段，就能修改现有标题大小，不会重复！ -->
 <style>
-/* 替换原无效样式，适配alfolio模板首页标题，100%生效 */
-.page-title { 
-  font-size: 1.6rem; /* 可直接修改数值调整大小，推荐1.6-2.0rem */
-  font-weight: bolder; /* 可选：让标题更粗，更醒目 */
-}
+h1 { font-size: 2rem !important; }
 </style>
 
 人工智能安全治理研究组（AI Security and Governance Research Group）依托广州大学网络空间安全学院建设。
