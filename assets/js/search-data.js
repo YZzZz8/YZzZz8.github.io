@@ -81,11 +81,6 @@ ninja.data = [{
           description: "提出首个利用长尾效应、无需搜索的轻量级后门防御方法LT-Defense，高效精准抵御语言模型后门攻击。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E9%9D%9E%E4%BE%B5%E5%85%A5%E5%BC%8F%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8E%E9%97%A8%E9%98%B2%E6%8A%A4/";
-            },},{id: "projects-大模型脆弱性评估",
-          title: '大模型脆弱性评估',
-          description: "探究大模型越狱攻击边界，提出基于分析的越狱方法，揭示LLM在推理型任务下的安全脆弱性，为模型安全校准提供依据。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%84%86%E5%BC%B1%E6%80%A7%E8%AF%84%E4%BC%B0/";
             },},{id: "projects-大模型越狱风险评估",
           title: '大模型越狱风险评估',
           description: "提出基于善意词诱导与文本恶意度降低的越狱提示生成方法，系统评估大模型对齐后的越狱风险与安全认知能力。",
