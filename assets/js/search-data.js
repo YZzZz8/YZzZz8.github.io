@@ -63,7 +63,7 @@ ninja.data = [{
               window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%9A%90%E7%A7%81%E6%80%A7%E9%98%B2%E6%8A%A4%E6%9C%BA%E7%90%86/";
             },},{id: "projects-模型鲁棒性优化机理",
           title: '模型鲁棒性优化机理',
-          description: "围绕对抗训练中“博弈建模假设是否合理”这一核心问题开展研究。",
+          description: "AT-Field：从博弈结构重构角度解决对抗训练收敛震荡问题，为大模型鲁棒性优化提供理论保障。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%B2%81%E6%A3%92%E6%80%A7%E4%BC%98%E5%8C%96%E6%9C%BA%E7%90%86/";
             },},{id: "projects-人工智能韧性分析",
