@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-研究方向",
           title: "研究方向",
-          description: "实验室主要研究方向。",
+          description: "研究组主要研究方向。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
