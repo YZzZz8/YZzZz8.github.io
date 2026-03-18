@@ -4,7 +4,7 @@ permalink: /publications/
 title: 学术成果
 description: 
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
