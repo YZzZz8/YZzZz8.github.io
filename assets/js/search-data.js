@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-学术成果",
-          title: "学术成果",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-研究方向",
+  },{id: "nav-研究方向",
           title: "研究方向",
           description: "研究组主要研究方向。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-学术成果",
+          title: "学术成果",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-成员",
           title: "成员",
@@ -56,16 +56,16 @@ ninja.data = [{
           description: "从信息流视角分析模型反演攻击（MIA）的隐私威胁，建立攻击误差概率下界，揭示攻击效能与信息泄露的内在机理。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%9A%90%E7%A7%81%E6%80%A7%E6%94%BB%E5%87%BB%E6%9C%BA%E7%90%86/";
-            },},{id: "projects-模型隐私性防护机理",
-          title: '模型隐私性防护机理',
-          description: "项目组对MIA防护进行了理论分析，形式化定义了狭义和广义的MIA防护问题，并进一步提出神经蜜点（Neural Honeypoint）以捕获攻击行为。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%9A%90%E7%A7%81%E6%80%A7%E9%98%B2%E6%8A%A4%E6%9C%BA%E7%90%86/";
-            },},{id: "projects-模型鲁棒性优化机理",
-          title: '模型鲁棒性优化机理',
-          description: "AT-Field：从博弈结构重构角度解决对抗训练收敛震荡问题，为大模型鲁棒性优化提供理论保障。",
+            },},{id: "projects-模型鲁棒性优化与隐私性防护",
+          title: '模型鲁棒性优化与隐私性防护',
+          description: "从对抗训练博弈重构解决鲁棒性收敛难题，通过神经蜜点实现模型反演攻击的主动防御，全面提升大模型安全性能。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_%E6%A8%A1%E5%9E%8B%E9%B2%81%E6%A3%92%E6%80%A7%E4%BC%98%E5%8C%96%E6%9C%BA%E7%90%86/";
+            },},{id: "projects-大模型脆弱性评估",
+          title: '大模型脆弱性评估',
+          description: "针对多用户协同数据分析场景，建模恶意数据提供者行为，研究不同防御强度与行为模式下的数据提供者可信度评估方法。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_%E9%9D%A2%E5%90%91%E6%95%B0%E6%8D%AE%E6%8A%95%E6%AF%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%AF%E4%BF%A1%E6%80%A7%E5%BB%BA%E6%A8%A1/";
             },},{id: "projects-人工智能韧性分析",
           title: '人工智能韧性分析',
           description: "提出AI韧性四维定义框架，系统刻画关键基础设施中AI技术的安全运行能力构成，剖析现存结构性短板并指出发展路径。",
@@ -76,6 +76,11 @@ ninja.data = [{
           description: "揭示视觉语言模型物体幻觉源于对无关视觉特征的过度自信，提出自适应变分信息瓶颈方法ADAVIB，有效缓解多模态大模型幻觉问题。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%BB%E8%A7%89%E7%BC%93%E8%A7%A3/";
+            },},{id: "projects-语言模型非侵入式轻量级后门防护",
+          title: '语言模型非侵入式轻量级后门防护',
+          description: "提出首个利用长尾效应、无需搜索的轻量级后门防御方法LT-Defense，高效精准抵御语言模型后门攻击。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E9%9D%9E%E4%BE%B5%E5%85%A5%E5%BC%8F%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8E%E9%97%A8%E9%98%B2%E6%8A%A4/";
             },},{id: "projects-大模型脆弱性评估",
           title: '大模型脆弱性评估',
           description: "探究大模型越狱攻击边界，提出基于分析的越狱方法，揭示LLM在推理型任务下的安全脆弱性，为模型安全校准提供依据。",
@@ -91,21 +96,6 @@ ninja.data = [{
           description: "针对网络流量分类模型的后门安全问题，提出协议合规的分组级后门攻击方法BDpackets，大幅提升黑盒场景下攻击效能。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_%E6%A8%A1%E5%9E%8B%E5%90%8E%E9%97%A8%E9%B2%81%E6%A3%92%E6%80%A7%E8%AF%84%E4%BC%B0/";
-            },},{id: "projects-语言模型非侵入式轻量级后门防护",
-          title: '语言模型非侵入式轻量级后门防护',
-          description: "提出首个利用长尾效应、无需搜索的轻量级后门防御方法LT-Defense，高效精准抵御语言模型后门攻击。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E9%9D%9E%E4%BE%B5%E5%85%A5%E5%BC%8F%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8E%E9%97%A8%E9%98%B2%E6%8A%A4/";
-            },},{id: "projects-大模型脆弱性评估",
-          title: '大模型脆弱性评估',
-          description: "针对多用户协同数据分析场景，建模恶意数据提供者行为，研究不同防御强度与行为模式下的数据提供者可信度评估方法。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_%E9%9D%A2%E5%90%91%E6%95%B0%E6%8D%AE%E6%8A%95%E6%AF%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%AF%E4%BF%A1%E6%80%A7%E5%BB%BA%E6%A8%A1/";
-            },},{id: "projects-其他维度的机器学习安全性及可信性",
-          title: '其他维度的机器学习安全性及可信性',
-          description: "从数据分布、安全标识、恶意检测等多维度构建机器学习安全与可信分析体系，支撑AI系统全周期安全防护。",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_%E5%85%B6%E4%BB%96%E7%BB%B4%E5%BA%A6%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%89%E5%85%A8%E6%80%A7%E5%8F%8A%E5%8F%AF%E4%BF%A1%E6%80%A7/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
