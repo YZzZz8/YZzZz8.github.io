@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-12-08 16:11:00-0400
-inline: ture
+inline: true
 related_posts: false
 ---
 
